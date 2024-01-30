@@ -1,0 +1,17 @@
+{
+  "name": "hardhat-javascript-starter",
+  "scripts": {
+    "build": "npx thirdweb@latest detect",
+    "deploy": "npx thirdweb@latest deploy",
+    "release": "npx thirdweb@latest release"
+  },
+  "devDependencies": {
+    "hardhat": "^2.10.1"
+  },
+  "dependencies": {
+    "@thirdweb-dev/contracts": "^3",
+    "@thirdweb-dev/react": "^4.4.0",
+    "@thirdweb-dev/sdk": "^4.0.28",
+    "dotenv": "^16.4.1"
+  }
+}
